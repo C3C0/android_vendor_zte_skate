@@ -66,15 +66,15 @@ PRODUCT_COPY_FILES += \
     vendor/zte/skate/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
     vendor/zte/skate/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
     vendor/zte/skate/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
-    vendor/zte/skate/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
     vendor/zte/skate/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
     vendor/zte/skate/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
     vendor/zte/skate/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
+    vendor/zte/skate/proprietary/lib/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
     vendor/zte/skate/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
-    vendor/zte/skate/proprietary/lib/libOmxQcelpDec.so:system/lib/libOmxQcelpDec.so \
     vendor/zte/skate/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/zte/skate/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/zte/skate/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
+    vendor/zte/skate/proprietary/lib/libOmxrv9Dec.so:system/lib/libOmxrv9Dec.so \
     vendor/zte/skate/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     vendor/zte/skate/proprietary/lib/libomx_aacdec_sharedlibrary.so:system/lib/libomx_aacdec_sharedlibrary.so \
     vendor/zte/skate/proprietary/lib/libomx_amrdec_sharedlibrary.so:system/lib/libomx_amrdec_sharedlibrary.so \
@@ -82,4 +82,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/skate/proprietary/lib/libomx_avcdec_sharedlibrary.so:system/lib/libomx_avcdec_sharedlibrary.so \
     vendor/zte/skate/proprietary/lib/libomx_m4vdec_sharedlibrary.so:system/lib/libomx_m4vdec_sharedlibrary.so \
     vendor/zte/skate/proprietary/lib/libomx_mp3dec_sharedlibrary.so:system/lib/libomx_mp3dec_sharedlibrary.so \
-    vendor/zte/skate/proprietary/lib/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so
+    vendor/zte/skate/proprietary/lib/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so \
+    vendor/zte/skate/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
+    vendor/zte/skate/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/zte/skate/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/zte/skate/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
